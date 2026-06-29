@@ -1,0 +1,118 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Embedded software and edge robotics banner</title>
+  <desc id="desc">A dark embedded software banner with code, PCB traces, a microchip, a robot head, and edge telemetry panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#0b1726"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="chipGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(865 172) rotate(90) scale(160 260)">
+      <stop stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="0.55" stop-color="#16a34a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="80" y1="292" x2="1120" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22c55e" stop-opacity="0.16"/>
+      <stop offset="0.45" stop-color="#38bdf8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="92" y1="154" x2="625" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fafc"/>
+      <stop offset="0.58" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#chipGlow)"/>
+
+  <path d="M72 290 H206 V247 H342 V198 H478 V154 H606 V122 H735" stroke="url(#trace)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 76 H210 V108 H350 V86 H506 V116 H618" stroke="#22c55e" stroke-opacity="0.42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M710 262 H830 V216 H928 V242 H1096" stroke="#f59e0b" stroke-opacity="0.65" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g opacity="0.95">
+    <circle cx="72" cy="290" r="5" fill="#22c55e"/>
+    <circle cx="342" cy="198" r="5" fill="#38bdf8"/>
+    <circle cx="606" cy="122" r="5" fill="#f59e0b"/>
+    <circle cx="830" cy="216" r="5" fill="#38bdf8"/>
+    <circle cx="1096" cy="242" r="5" fill="#f97316"/>
+  </g>
+
+  <g transform="translate(748 86)" filter="url(#glow)">
+    <rect x="0" y="0" width="184" height="184" rx="24" fill="#0f172a" stroke="#67e8f9" stroke-width="2"/>
+    <rect x="33" y="33" width="118" height="118" rx="16" fill="#020617" stroke="#22c55e" stroke-opacity="0.8"/>
+    <text x="48" y="77" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700">MCU</text>
+    <text x="48" y="106" fill="#fbbf24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">EDGE AI</text>
+    <text x="48" y="132" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">INT8 / RTOS</text>
+    <g stroke="#94a3b8" stroke-opacity="0.7" stroke-width="2">
+      <path d="M-24 28 H0 M-24 58 H0 M-24 88 H0 M-24 118 H0 M-24 148 H0"/>
+      <path d="M184 28 H208 M184 58 H208 M184 88 H208 M184 118 H208 M184 148 H208"/>
+      <path d="M28 -24 V0 M58 -24 V0 M88 -24 V0 M118 -24 V0 M148 -24 V0"/>
+      <path d="M28 184 V208 M58 184 V208 M88 184 V208 M118 184 V208 M148 184 V208"/>
+    </g>
+  </g>
+
+  <g transform="translate(982 104)">
+    <rect x="0" y="42" width="110" height="106" rx="28" fill="#111827" stroke="#38bdf8" stroke-opacity="0.85" stroke-width="2"/>
+    <rect x="22" y="0" width="66" height="54" rx="18" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.8" stroke-width="2"/>
+    <path d="M55 0 V-24" stroke="#22c55e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="55" cy="-28" r="6" fill="#22c55e"/>
+    <circle cx="36" cy="95" r="9" fill="#67e8f9"/>
+    <circle cx="75" cy="95" r="9" fill="#fbbf24"/>
+    <path d="M36 126 H75" stroke="#cbd5e1" stroke-opacity="0.7" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 92 H-38 V66" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="2"/>
+    <path d="M110 92 H150 V122" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(92 54)">
+    <rect x="0" y="0" width="286" height="34" rx="17" fill="#111827" stroke="#334155"/>
+    <circle cx="21" cy="17" r="5" fill="#22c55e"/>
+    <text x="38" y="22" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">houyuwen.dev / device lab</text>
+  </g>
+
+  <g transform="translate(92 112)">
+    <rect x="0" y="0" width="330" height="172" rx="14" fill="#020617" stroke="#334155"/>
+    <circle cx="20" cy="22" r="5" fill="#ef4444"/>
+    <circle cx="40" cy="22" r="5" fill="#f59e0b"/>
+    <circle cx="60" cy="22" r="5" fill="#22c55e"/>
+    <text x="18" y="61" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">while (device.ready())</text>
+    <text x="18" y="91" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">  sample_sensors();</text>
+    <text x="18" y="121" fill="#fbbf24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">  run_inference();</text>
+    <text x="18" y="151" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">  update_actuators();</text>
+  </g>
+
+  <g transform="translate(462 102)">
+    <rect x="0" y="0" width="214" height="122" rx="16" fill="#0f172a" stroke="#334155"/>
+    <text x="18" y="31" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">telemetry</text>
+    <path d="M22 76 C48 58 72 92 98 70 C125 47 152 86 188 54" stroke="#22c55e" stroke-width="3" fill="none"/>
+    <text x="18" y="105" fill="#fbbf24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">sensor -> ai -> motor</text>
+  </g>
+
+  <g transform="translate(92 300)">
+    <rect x="0" y="0" width="122" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="18" y="22" fill="#bae6fd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">C/C++</text>
+    <rect x="136" y="0" width="124" height="34" rx="17" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.45"/>
+    <text x="154" y="22" fill="#bbf7d0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">RTOS</text>
+    <rect x="274" y="0" width="156" height="34" rx="17" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.55"/>
+    <text x="292" y="22" fill="#fde68a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Robotics</text>
+  </g>
+
+  <g transform="translate(462 250)" opacity="0.92">
+    <text x="0" y="0" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">build target</text>
+    <text x="0" y="27" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">reliable code on real devices</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="28" stroke="#334155" stroke-opacity="0.65"/>
+</svg>
